@@ -1,0 +1,73 @@
+% This document is written by Hung and Terrayut. Some part is borrowed from EC template (http://www2.siit.tu.ac.th/somsak/SeniorProjects/2015/2015_SeniorProjectReportTemplate.zip)
+\documentclass[12pt, a4paper]{report}
+\usepackage[top=1in,bottom=1in,left=1.25in,right=1in]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{subcaption,url,hyperref}
+\usepackage{listings}
+\usepackage{amsmath}
+\usepackage{subfiles}
+% put all figures in foder ./figure
+\graphicspath{{./figure/}}
+
+
+\begin{document}
+
+%%%% BEGIN: TITLE PAGE %%%%
+\begin{center}
+
+\large 
+\vspace*{2cm}
+
+SENIOR PROJECT TH3-2018\\[1cm]
+
+\LARGE
+
+Knowledge Construction\\(Thai Researcher Open Linked Data)\\[1cm]
+
+
+Project Concept\\[2cm]
+\large
+Submitted to \\[1cm]
+School of Information, Computer and Communication Technology \\
+Sirindhorn International Institute of Technology \\
+Thammasat University \\[2cm]
+Sept 2018 \\[3cm]
+by \\[1cm]
+Kriddanai Roonguthai 5822780334\\
+Kittikom Sangrit 5822790861\\[2cm]
+Advisor: Prof. Dr. Thanaruk Theeramunkong	
+\end{center}
+%%%% END: TITLE PAGE %%%%
+
+
+\newpage
+\pagestyle{plain}
+\pagenumbering{roman}
+\onehalfspace
+
+
+\chapter{Project Concept}
+
+In this chapter, you should write a good and concise introduction to your project. 
+
+\subfile{summary}
+
+\subfile{motivation}
+
+\subfile{users_and_benefits}
+
+\subfile{typical_usate}
+
+\subfile{main_challenges}
+
+% Use IEEEtranS for bibilography that is sorted alphabetically. 
+\bibliographystyle{IEEEtranS}
+% Uncomment below to use IEEEtran so that the references are sorted by appearance.
+%\bibliographystyle{IEEEtran}
+
+\bibliography{seniorp}		
+
+
+\end{document}
